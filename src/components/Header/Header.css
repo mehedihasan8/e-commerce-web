@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  background-color: black;
+}
+.header a:hover {
+  font-size: 1.25rem;
+  color: red;
+}
+
+@media (max-width: 567px) {
+  .header {
+    flex-direction: column;
+    padding: 15px 0;
+    margin-bottom: 15px 0;
+  }
+  .header-items a {
+    text-align: center;
+    margin: 15px 0;
+    display: block;
+  }
+}
