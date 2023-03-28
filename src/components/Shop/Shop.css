@@ -9,3 +9,14 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
+
+@media (max-width: 567px) {
+  .shop-container {
+    grid-template-columns: 1fr;
+    padding: 1.5rem;
+  }
+  .products-container {
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+}

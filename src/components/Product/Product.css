@@ -37,3 +37,12 @@
   color: aliceblue;
   font-weight: 700;
 }
+@media (max-width: 567px) {
+  .single-product {
+    margin: 10px 0;
+    width: 100%;
+  }
+  .single-product img {
+    width: 95%;
+  }
+}
