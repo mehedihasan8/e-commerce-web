@@ -3,6 +3,7 @@ import "./Card.css";
 
 const Card = (props) => {
   const card = props.card;
+  console.log(card);
 
   let totalPrice = 0;
   let totalShiping = 0;
